@@ -180,6 +180,7 @@ setInterval(actualizarReloj,1000);
 </html>
 """
 
+#Ruta principal
 @app.route("/")
 def home():
     return render_template_string(HTML)
